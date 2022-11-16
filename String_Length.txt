@@ -1,0 +1,17 @@
+class String_Length
+{
+	public static void main(String[] args) 
+	{
+		 String name = "abcd";
+		 int i=name.length();
+
+		 if (i==0) 
+		 {
+		    System.out.println("String is empty");	
+		 }
+		 else
+		 {
+		 	System.out.println(" String is not empty");
+		 }
+	}
+}
